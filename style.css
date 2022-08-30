@@ -1,0 +1,45 @@
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+.btn {
+    width: 23%;
+    height: 3.5rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(85, 104, 129);
+    font-size: large;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.alret {
+    display: flex;
+    border: 2px solid rgb(85, 104, 129);
+    background-color: beige;
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.close-btn {
+    height: 40px;
+    width: 40px;
+    align-self: flex-start;
+    background-color: transparent;
+    border: none;
+}
+  
+.grow {
+    flex-grow: 1;
+    text-align: center;
+}
